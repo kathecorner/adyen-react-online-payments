@@ -17,6 +17,7 @@ export const slice = createSlice({
           hasHolderName: true,
           holderNameRequired: true,
           name: "Credit or debit card",
+          billingAddressRequired: true,//3DS native recommended
           amount: {
             value: 1000, // 10€ in minor units
             currency: "EUR",
